@@ -1,0 +1,22 @@
+pkgbase = mpg-bin
+	pkgdesc = Mark's Password Generator
+	pkgver = 1.0.35
+	pkgrel = 1
+	url = https://mcornick.com/mpg/
+	license = MIT
+	conflicts = mpg
+	provides = mpg
+	arch = aarch64
+	source_aarch64 = https://github.com/mcornick/mpg/releases/download/v1.0.35/mpg_1.0.35_linux_arm64.tar.gz
+	sha256sums_aarch64 = 4a6753009399fb3be1639edc5ce972a70847f9d03c256e90da52b53a0eb1e2fb
+	arch = armv6h
+	source_armv6h = https://github.com/mcornick/mpg/releases/download/v1.0.35/mpg_1.0.35_linux_armv6.tar.gz
+	sha256sums_armv6h = 3fb92e0bfdeb2fc81e4aa79bb20bce739fe946001edf3185c97d50e146053684
+	arch = i686
+	source_i686 = https://github.com/mcornick/mpg/releases/download/v1.0.35/mpg_1.0.35_linux_386.tar.gz
+	sha256sums_i686 = c421285961b5ffa053dfaf081f2f92c1741712a63e9ceae091f9317b1f6b1050
+	arch = x86_64
+	source_x86_64 = https://github.com/mcornick/mpg/releases/download/v1.0.35/mpg_1.0.35_linux_amd64.tar.gz
+	sha256sums_x86_64 = 9a92dedf7620d7aa27745976145c743201e027eeac84d781b7a55f12d5a97f25
+	
+pkgname = mpg-bin
