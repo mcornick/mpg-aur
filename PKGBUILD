@@ -2,7 +2,7 @@
 # Maintainer: Mark Cornick <mcornick@mcornick.com>
 
 pkgname='mpg-bin'
-pkgver=1.0.37
+pkgver=1.1.0
 pkgrel=1
 pkgdesc='Mark's Password Generator'
 url='https://mcornick.com/mpg/'
@@ -11,17 +11,17 @@ license=('MIT')
 provides=('mpg')
 conflicts=('mpg')
 
-source_aarch64=("${pkgname}_${pkgver}_aarch64.tar.gz::https://github.com/mcornick/mpg/releases/download/v1.0.37/mpg_1.0.37_linux_arm64.tar.gz")
-sha256sums_aarch64=('0dddd8732133c653495a29858775b274a3d61475fcd6fe09b109f5508ab9ee8d')
+source_aarch64=("${pkgname}_${pkgver}_aarch64.tar.gz::https://github.com/mcornick/mpg/releases/download/v1.1.0/mpg_1.1.0_linux_arm64.tar.gz")
+sha256sums_aarch64=('cf94d431b788a71e4299c67e39304bf1e1af04c5cb8d0d51159a97b99c0db6a2')
 
-source_armv6h=("${pkgname}_${pkgver}_armv6h.tar.gz::https://github.com/mcornick/mpg/releases/download/v1.0.37/mpg_1.0.37_linux_armv6.tar.gz")
-sha256sums_armv6h=('27af741fb7195e04a9dd0fc0506648aa1668cf89a5244e154efd1bab62e14f0f')
+source_armv6h=("${pkgname}_${pkgver}_armv6h.tar.gz::https://github.com/mcornick/mpg/releases/download/v1.1.0/mpg_1.1.0_linux_armv6.tar.gz")
+sha256sums_armv6h=('4d7c015aac252b7e28eb5e0a91e23d5cc778e4db0e7f954b71d3836f40009a8d')
 
-source_i686=("${pkgname}_${pkgver}_i686.tar.gz::https://github.com/mcornick/mpg/releases/download/v1.0.37/mpg_1.0.37_linux_386.tar.gz")
-sha256sums_i686=('8255867add1609d372a7660339426e591e74bc1d09e979da576e71071abdeee1')
+source_i686=("${pkgname}_${pkgver}_i686.tar.gz::https://github.com/mcornick/mpg/releases/download/v1.1.0/mpg_1.1.0_linux_386.tar.gz")
+sha256sums_i686=('4ec944e2d9ed3a678e4f485ba664a3de390a35ff2e017964cd7b6d916e111ef6')
 
-source_x86_64=("${pkgname}_${pkgver}_x86_64.tar.gz::https://github.com/mcornick/mpg/releases/download/v1.0.37/mpg_1.0.37_linux_amd64.tar.gz")
-sha256sums_x86_64=('6c12f3dbba529350704a38c7c2b9b2b68753144b5a969f6bc1d5198428feb867')
+source_x86_64=("${pkgname}_${pkgver}_x86_64.tar.gz::https://github.com/mcornick/mpg/releases/download/v1.1.0/mpg_1.1.0_linux_amd64.tar.gz")
+sha256sums_x86_64=('6cec71530824dd6bb928bacd7e21b73138a2aadcd4f286fe49855a35d86ef864')
 
 package() {
   install -Dm755 "./mpg" "${pkgdir}/usr/bin/mpg"
